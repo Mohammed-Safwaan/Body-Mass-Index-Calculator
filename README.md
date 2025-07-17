@@ -1,20 +1,65 @@
-<<<<<<< HEAD
-# bmi
+# 💪 Flutter BMI Calculator App
 
-A new Flutter project.
+A beautifully styled, fully offline **BMI Calculator** app built with Flutter.  
+This app allows users to enter their **name**, **height**, and **weight**, and get personalized BMI results along with **category-based advice**, **emojis**, and a clean animated UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔠 User enters their **name** for a personalized experience.
+- 📏 Takes input for **height (in meters)** and **weight (in kg)**.
+- 🧮 Calculates **BMI** and displays a result like:  
+  `Alex, your BMI is 28.7. You’re overweight 😐 — time to workout! 🏋️`
+- 🎨 **Color-coded results** based on BMI category.
+- ❤️ Smooth **icon animation** on result display.
+- 🔄 Includes **Reset** button to clear fields.
+- 📱 Fully **offline**, **lightweight**, and **mobile responsive**.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Body-Mass-Index-Calculator
->>>>>>> 713e531c6e750bd672c7b328062bfe7986bc4744
+## 🧠 BMI Categories Used
+
+| BMI Range      | Category     | Message                           |
+|----------------|--------------|-----------------------------------|
+| < 18.5         | Underweight  | Eat well and stay healthy 🥲       |
+| 18.5 – 24.9    | Normal       | You’re fit and healthy 😊         |
+| 25 – 29.9      | Overweight   | Time to workout! 🏋️               |
+| ≥ 30           | Obese        | Prioritize your health 😶         |
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter** 3.x
+- **Dart**
+- No external packages (optional: `flutter_native_splash` if splash screen is added)
+
+---
+
+## 📷 Screenshots
+
+| Input Form | BMI Result |
+|------------|------------|
+| ![input](assets/screens/input.png) | ![result](assets/screens/result.png) |
+
+*(Add screenshots of your UI in `assets/screens/` and update links above)*
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/bmi-calculator-app.git
+   cd bmi-calculator-app
+
+   flutter pub get
+   flutter run
+   flutter build apk --release
+
+  
+📄 License
+This project is open source and available under the MIT License.
+
+
